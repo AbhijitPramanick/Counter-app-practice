@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex_y {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.master {
+  width: 100vw;
+  height: 100vh;
+}
+.displayDiv {
+  height: 90%;
+  width: 40%;
+  position: relative;
+  gap: 20%;
+}
+.bgDisplay {
+  position: absolute;
+  font-size: 30rem;
+  color: red;
+  opacity: 10%;
+}
+.display {
+  font-size: 6rem;
+  z-index: 2;
+}
+.btnBox {
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  z-index: 3;
+}
+.actionBtn {
+  font-size: 1.5rem;
+  padding: 2% 5%;
+  font-weight: 700;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.actionBtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.actionBtn:active {
+  box-shadow: none;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
